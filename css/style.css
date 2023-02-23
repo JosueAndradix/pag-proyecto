@@ -61,6 +61,7 @@ align-items:center
     background-position: center;
     flex-direction: column;
     border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
   
     
 }
@@ -83,6 +84,7 @@ align-items:center
   background-color: rgb(161, 170, 175,.5);
   padding: 20px;
   border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 
 }
 
@@ -98,7 +100,7 @@ align-items:center
  height:300px;
   display: flex;
  margin-bottom: 60px;
- 
+  
  
 
 }
@@ -110,6 +112,7 @@ align-items:center
     margin: 20px;
     min-height: 100%;
     padding-top: 100px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
    
 
 }
@@ -121,6 +124,7 @@ align-items:center
     margin: 20px;
     min-height: 100%;
     padding-top: 100px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     
 
 }
@@ -146,6 +150,7 @@ align-items:center
         height: 250px;
         width: 300px;
         border-radius: 30px;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     }
 
     .galery:hover {
@@ -177,6 +182,7 @@ align-items:center
         border-radius: 30px;
         font-size: 20px;
         margin-bottom: 200px;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     
         }
         .servicios{
@@ -221,8 +227,8 @@ align-items:center
     }
     
     .logo span {
-        color: #ff6c3e;
-    }
+        color: black;
+            }
     
     .contact-wrapper {
         box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -263,11 +269,11 @@ align-items:center
         background: none;
         outline: 0;
         color: #fff;
-        border-bottom: 1px solid #d63031;
+        border-bottom: 1px solid #fff;
     }
     
     .contact-form form button {
-        background: #dcd0c0;
+        background: black;
         border: 0;
         text-transform: uppercase;
         padding: 1em;
@@ -375,7 +381,3 @@ padding-top: 30px;
  
 }
 /* CONTACTAME */
-.contenedor-contac{
-  padding: 0;
-
-}
